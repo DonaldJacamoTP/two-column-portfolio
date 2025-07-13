@@ -6,7 +6,12 @@ function EducationItem(props) {
             <div className='mr-2 text-surface-600 text-xs basis-1/4'>{props.startDate} {checkEndDate(props)}</div>
             <div className='basis-3/4'>
                 <a href={props.href} target="_blank" rel="noopener noreferrer" className='font-medium transition-all'>{props.subject} ({props.degree})</a>
-                <div className='text-surface-600 mb-4'>{props.university}</div>
+                <div className='text-surface-600 mb-2'>{props.university}</div>
+                {props.gpa && props.gpa !== "N/A" && (
+                    <div className='text-surface-500 text-sm mb-2'>
+                        GPA: {props.gpa}
+                    </div>
+                )}
                 <div className='text-surface-600'>{props.description}</div>
             </div>
         </div>

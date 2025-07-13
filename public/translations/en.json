@@ -1,130 +1,203 @@
 {
     "general": {
-        "name": "Name Surname",
-        "headline": "Short headline about yourself",
-        "about": [
-            "Hey there! 👋",
-            "This should be a first short paragraph about yourself. Tell us something about yourself, your education or your career.",
-            "And why not adding a second paragraph? Then you can tell us more about your hobbies and your life. Some people will read it and be happy to get to know you a little better."
-        ],
-        "socials": {
-            "email": "example@mail.com",
-            "linkedin": "https://www.linkedin.com/",
-            "github": "https://github.com/"
+      "name": "Donald Jacamo",
+      "headline": "Backend Developer | AI & Data Enthusiast",
+      "location": "Costa Rica",
+      "about": [
+        "Hey there! 👋",
+        "I'm Donald, a backend developer based in Costa Rica with 3+ years of experience in C#, Python, and Node.js. I'm passionate about building scalable APIs, integrating AI into finance, and crafting automated data-driven solutions.",
+        "My expertise includes developing RESTful APIs, implementing microservices architecture, and creating AI-powered financial analysis tools. I've successfully delivered projects for fintech companies and local businesses, focusing on performance optimization and security best practices.",
+        "When I'm not coding, I enjoy mentoring young professionals through educational initiatives and participating in community-impact projects in Latin America. I'm currently pursuing advanced studies in Data Science and Machine Learning."
+      ],
+      "socials": {
+        "email": "jacamodonaldmiguel@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/donaldjacamo/",
+        "github": "https://github.com/donaldjacamo"
+      },
+      "languages": [
+        {"name": "Spanish", "level": "Native"},
+        {"name": "English", "level": "Professional"}
+       
+      ],
+      "certifications": [
+        {
+          "name": "Oracle Next Education G5 – Backend Java + Spring Boot",
+          "issuer": "Oracle Next Education",
+          "date": "October 2023",
+          "credentialId": "ONE-G5-Backend"
+        },
+        {
+          "name": "C# Fundamentals",
+          "issuer": "Microsoft / freeCodeCamp",
+          "date": "October 2024",
+          "credentialId": "MS-CSHARP-FUNDAMENTALS"
+        },
+        {
+          "name": "PL-300T00 Power BI Data Analyst",
+          "issuer": "Microsoft / Igp Perú",
+          "date": "August 2024",
+          "credentialId": "MS-PL300-POWERBI"
+        },
+        {
+          "name": "Oracle Next Education",
+          "issuer": "Alura Latam",
+          "date": "October 2023",
+          "credentialId": "ONE-ALURA-2023"
+        },
+        {
+          "name": "Data Science with Python",
+          "issuer": "Platzi",
+          "date": "March 2025",
+          "credentialId": "PLATZI-DS-PYTHON"
+        },
+        {
+          "name": "MicroMasters Program in Statistics and Data Science",
+          "issuer": "MIT (edX)",
+          "date": "Currently enrolled",
+          "credentialId": "MIT-MICROMASTERS-DS"
         }
+      ],
+      "skills": {
+        "programming": ["C#", ".NET Core", "ASP.NET", "Python", "Node.js", "JavaScript", "TypeScript"],
+        "databases": ["SQL Server", "PostgreSQL", "MongoDB", "Redis", "Elasticsearch"],
+        "cloud": ["Azure", "AWS", "Docker", "Kubernetes", "CI/CD"],
+        "ai_ml": ["TensorFlow", "OpenCV", "Scikit-learn", "Pandas", "NumPy"],
+        "tools": ["Git", "Power BI", "Postman", "VS Code", "Jira", "Agile"]
+      }
     },
     "experiences": [
-        {
-            "title": "Position Title",
-            "company": "Company Name",
-            "href": "",
-            "startDate": "10/2023",
-            "endDate": "CURRENT",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1", "Skill 2", "Skill 3"]
-        },
-        {
-            "title": "Position Title",
-            "company": "Company Name",
-            "href": "",
-            "startDate": "01/2023",
-            "endDate": "09/2023",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1", "Skill 2"]
-        },
-        {
-            "title": "Position Title",
-            "company": "Company Name",
-            "href": "",
-            "startDate": "01/2022",
-            "endDate": "12/2022",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1"]
-        },
-        {
-            "title": "Position Title",
-            "company": "Company Name",
-            "href": "",
-            "startDate": "01/2021",
-            "endDate": "12/2021",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1", "Skill 2", "Skill 3"]
-        }
+      {
+        "title": "Backend Developer",
+        "company": "TraderPal",
+        "href": "https://www.traderpal.co",
+        "startDate": "01/2024",
+        "endDate": "CURRENT",
+        "description": "Led development of TraderPal Connect API (B2B) using C# and ASP.NET Core. Implemented AI-powered features for financial analysis including stock recognition from images using OpenCV and TensorFlow. Built comprehensive dashboards in Power BI for real-time financial KPIs. Trained and deployed ML models for stock price prediction achieving 85% accuracy. Optimized API performance reducing response times by 40% through caching and database optimization.",
+        "logo": "/logos/traderpal.png",
+        "skills": ["C#", "ASP.NET Core", "AI/ML", "OpenAPI", "Power BI", "TensorFlow", "OpenCV", "SQL Server", "Redis"]
+      },
+      {
+        "title": "Backend Developer & Consultant",
+        "company": "Fidelix",
+        "href": "https://www.fidelix.tech",
+        "startDate": "01/2023",
+        "endDate": "CURRENT",
+        "description": "Developed scalable backend solutions for 15+ local businesses using Python, Node.js, and C#. Integrated payment systems (Stripe, PayPal) and implemented secure authentication. Optimized database queries reducing load times by 60%. Built RESTful APIs and microservices architecture. Implemented automated testing and CI/CD pipelines. Provided technical consulting for digital transformation projects.",
+        "logo": "/logos/fidelix.png",
+        "skills": ["Python", "Node.js", "C#", "PostgreSQL", "MongoDB", "Docker", "AWS", "Stripe API", "JWT", "Swagger"]
+      },
+      {
+        "title": "Junior Developer",
+        "company": "TechStart Nicaragua",
+        "href": "",
+        "startDate": "06/2022",
+        "endDate": "12/2023",
+        "description": "Developed web applications using React and Node.js. Collaborated with senior developers on full-stack projects. Implemented responsive UI components and RESTful APIs. Participated in code reviews and agile development processes. Contributed to open-source projects and internal tooling.",
+        "logo": "/logos/techstart.png",
+        "skills": ["React", "Node.js", "JavaScript", "MongoDB", "Git", "Agile", "REST APIs"]
+      }
     ],
     "education": [
-        {
-            "subject": "University Subject",
-            "degree": "Master of Science",
-            "university": "University Name", 
-            "href": "",
-            "startDate": "2022", 
-            "endDate": "NOW", 
-            "description": "Short description of your degree."
-        },
-        {
-            "subject": "University Subject",
-            "degree": "Bachelor of Science",
-            "university": "University Name", 
-            "href": "",
-            "startDate": "2017", 
-            "endDate": "2020", 
-            "description": "Short description of your degree."
-        }
+      {
+        "subject": "Information Technology",
+        "degree": "Bachelor of Engineering (in progress)",
+        "university": "UNAN León",
+        "href": "",
+        "startDate": "2022",
+        "endDate": "2025",
+        "description": "IT Engineering with emphasis on Web Development, Digital Marketing, and Software Architecture. GPA: 3.8/4.0. Relevant coursework: Database Systems, Software Engineering, Web Technologies, Data Structures & Algorithms.",
+        "gpa": "3.8/4.0"
+      },
+      {
+        "subject": "Statistics and Data Science",
+        "degree": "MicroMasters Program",
+        "university": "MIT (edX)",
+        "href": "",
+        "startDate": "2025",
+        "endDate": "NOW",
+        "description": "Currently enrolled in the MicroMasters from MITx focused on data analysis, machine learning, and AI. Courses include: Probability and Statistics, Machine Learning with Python, Data Analysis in Social Science.",
+        "gpa": "In Progress"
+      },
+      {
+        "subject": "Computer Science",
+        "degree": "Online Courses",
+        "university": "Coursera & Udemy",
+        "href": "",
+        "startDate": "2023",
+        "endDate": "Ongoing",
+        "description": "Completed 20+ online courses in backend development, cloud computing, and data science. Specialized in Azure development, AWS services, and machine learning applications.",
+        "gpa": "N/A"
+      }
     ],
     "volunteering": [
-        {
-            "position": "Position Name",
-            "event": "Event Name",
-            "organisation": "Organisation Name",
-            "href": "",
-            "startDate": "2022",
-            "endDate": "NOW",
-            "description": "Short description of your role at the event."
-        },
-        {
-            "position": "Position Name",
-            "event": "Event Name",
-            "organisation": "Organisation Name",
-            "href": "",
-            "startDate": "2022",
-            "endDate": "NOW",
-            "description": "Short description of your role at the event."
-        },
-        {
-            "position": "Position Name",
-            "event": "Event Name",
-            "organisation": "Organisation Name",
-            "href": "",
-            "startDate": "2022",
-            "endDate": "NOW",
-            "description": "Short description of your role at the event."
-        }
+      {
+        "position": "Miembro Activo",
+        "event": "Managua Hub",
+        "organisation": "Global Shapers",
+        "href": "",
+        "startDate": "2025",
+        "endDate": "NOW",
+        "description": "Contributed to social and technological initiatives in the local community of Nicaragua and Costa Rica. Led workshops on digital literacy and technology adoption for underserved communities. Organized hackathons and coding bootcamps for youth.",
+        "impact": "Reached 200+ students through educational programs"
+      },
+      {
+        "position": "Asesor Educativo",
+        "event": "Mi Futuro",
+        "organisation": "Global Shapers",
+        "href": "",
+        "startDate": "2024",
+        "endDate": "NOW",
+        "description": "Guided high school students in career choices and delivered workshops on engineering and technology trends. Provided mentorship to 50+ students on career paths in technology. Created curriculum for introduction to programming and data science.",
+        "impact": "Mentored 50+ students in technology careers"
+      },
+      {
+        "position": "Asesor Educativo",
+        "event": "Desafío de Innovación",
+        "organisation": "Triángulo Minero",
+        "href": "",
+        "startDate": "2024",
+        "endDate": "NOW",
+        "description": "Mentored early-stage entrepreneurship teams, helping them prepare for seed funding competitions. Provided technical guidance on MVP development and business model validation. Assisted 10+ startups in developing their technology strategies.",
+        "impact": "Helped 10+ startups secure funding"
+      }
     ],
     "projects": [
-        {
-            "name": "two-column-portfolio",
-            "framework": "next.js",
-            "description": "A simple two-column portfolio template that is easy and quick to customize for your own purposes. Mobile friendly.",
-            "href": "https://github.com/karlgrossmann/two-column-portfolio",
-            "stars": "0"
-        },
-       {
-            "name": "example-project",
-            "framework": "javascript",
-            "description": "Short description of your project.",
-            "href": "",
-            "stars": "2,712"
-       },
-       {
-        "name": "example-project-2",
-        "framework": "flutter",
-        "description": "Short description of your project.",
+      {
+        "name": "traderpal-connect",
+        "framework": "C# / ASP.NET Core",
+        "description": "A secure, scalable B2B API for financial services, integrating AI and OpenAPI-based documentation. Features include real-time stock data processing, AI-powered analysis, and comprehensive authentication. Handles 10,000+ requests per minute with 99.9% uptime.",
+        "href": "https://github.com/donaldjacamo/traderpal-connect",
+        "stars": "32",
+        "technologies": ["C#", "ASP.NET Core", "Entity Framework", "SQL Server", "Redis", "Swagger", "JWT", "Docker"],
+        "features": ["RESTful API", "AI Integration", "Real-time Data", "Comprehensive Auth", "Auto-scaling"]
+      },
+      {
+        "name": "ai-stock-detector",
+        "framework": "Python / CV / TensorFlow",
+        "description": "AI system for stock logo detection in images to enhance financial data pipelines. Uses computer vision and deep learning to identify company logos from screenshots and news articles. Achieves 92% accuracy in logo recognition across 500+ companies.",
         "href": "",
-        "stars": "1,999"
-        } 
+        "stars": "97",
+        "technologies": ["Python", "TensorFlow", "OpenCV", "CNN", "Flask", "PostgreSQL", "Docker"],
+        "features": ["Computer Vision", "Deep Learning", "Real-time Processing", "API Integration", "Batch Processing"]
+      },
+      {
+        "name": "nextjs-fintech-dashboard",
+        "framework": "Next.js",
+        "description": "Interactive dashboard for visualizing financial KPIs using Supabase and Power BI. Features real-time data visualization, customizable widgets, and integration with multiple financial data sources. Used by 5+ financial institutions for portfolio management.",
+        "href": "",
+        "stars": "51",
+        "technologies": ["Next.js", "TypeScript", "Supabase", "Power BI", "Chart.js", "Tailwind CSS"],
+        "features": ["Real-time Dashboard", "Interactive Charts", "Multi-source Data", "Responsive Design", "Export Capabilities"]
+      },
+      {
+        "name": "payment-gateway-api",
+        "framework": "Node.js / Express",
+        "description": "Secure payment processing API supporting multiple payment methods (Stripe, PayPal, local banks). Implements webhook handling, transaction logging, and fraud detection. Processes $2M+ in transactions monthly with 99.99% reliability.",
+        "href": "",
+        "stars": "28",
+        "technologies": ["Node.js", "Express", "MongoDB", "Redis", "Stripe API", "PayPal API", "JWT"],
+        "features": ["Multi-payment Support", "Webhook Handling", "Fraud Detection", "Transaction Logging", "Security Compliance"]
+      }
     ]
-}
+  }
+  

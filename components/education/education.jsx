@@ -15,6 +15,7 @@ const Education = (props) => {
                     startDate={object.startDate} 
                     endDate={object.endDate ? object.endDate : ''} 
                     description={object.description}
+                    gpa={object.gpa}
                 />
             })}
         </div>

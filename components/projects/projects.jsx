@@ -14,6 +14,8 @@ const Projects = (props) => {
                         lib={object.framework}
                         description={object.description}
                         href={object.href}
+                        technologies={object.technologies}
+                        features={object.features}
                     />
                 })}
             </div>

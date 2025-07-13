@@ -15,6 +15,7 @@ const Volunteering = (props) => {
                     startDate={object.startDate}
                     endDate={object.endDate ? object.endDate : ''}
                     description={object.description}
+                    impact={object.impact}
                 />
             })}
         </div>
